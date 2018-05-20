@@ -6,14 +6,14 @@
     <% end %>
   </div>
   <h2><%= @group.title %></h2>
-  <p><%= @group.description %></p>
+  <p><%= simple_format(@group.description) %></p>
 
   <table class="table">
     <thead>
      <tr>
-        <th>文章内容</th>
-        <th>发表者</th>
-        <th>发表时间</th>
+        <th>伞下的话</th>
+        <th>伞下的人</th>
+        <th>留言时间</th>
       </tr>
     </thead>
     <tbody>
